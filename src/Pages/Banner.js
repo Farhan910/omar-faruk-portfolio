@@ -38,11 +38,7 @@ const Banner = () => {
         </div>
       </section>
 
-      <img
-        src={image}
-        alt=""
-        className="w-5/6 mx-auto -mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-gray-500"
-      />
+      
     </section>
   );
 };
