@@ -6,8 +6,8 @@ import Footer from "./Footer";
 
 const Projects = () => {
   return (
-    <div >
-      <section className="bg-base-300 px-12 dark:text-gray-100 mb-[150px]">
+    <div  >
+      <section className=" px-12 dark:text-gray-100 mb-[150px]">
         <div className="container  max-w-xl p-6 py-12 mx-auto space-y-24 lg:px-8 lg:max-w-7xl">
           <div>
             <h2 className="text-3xl font-bold tracking-tight text-center sm:text-5xl dark:text-gray-300 ">
@@ -124,7 +124,7 @@ const Projects = () => {
               <img
                 src={image1}
                 alt=""
-                className="mx-auto rounded-lg shadow-lg h-[650px] dark:bg-gray-500"
+                className=" relative mx-auto rounded-lg shadow-lg h-[650px] dark:bg-gray-500"
               />
             </div>
           </div>
@@ -232,7 +232,7 @@ const Projects = () => {
                   </div>
                 </div>
               </div>
-              <div className="mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
+              <div className=" relative mt-10 lg:mt-0 lg:col-start-1 lg:row-start-1">
                 <img
                   src={image2}
                   alt=""
@@ -348,7 +348,7 @@ const Projects = () => {
               <img
                 src={image3}
                 alt=""
-                className="mx-auto rounded-lg shadow-lg h-[650px] dark:bg-gray-500"
+                className=" relative mx-auto rounded-lg shadow-lg h-[650px] dark:bg-gray-500"
               />
             </div>
           </div>

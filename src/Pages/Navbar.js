@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <div>
       
-      <div class="navbar bg-base-200">
+      <div class=" relative navbar bg-base-200">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -27,39 +27,39 @@ const Navbar = () => {
             </label>
             <ul
               tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-200 rounded-box w-52"
+              class="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52"
             >
-              <li>
+              <li className="text-white">
                 <Link to="/">Home</Link>
               </li>
-              <li>
+              <li className="text-white">
                 <Link to="/aboutMe">About Me</Link>
               </li>
-              <li>
+              <li className="text-white">
                 <Link to="/project">My Projects</Link>
               </li>
-              <li>
+              <li className="text-white">
                 <Link to="/blog">Blog</Link>
               </li>
             </ul>
           </div>
           <Pulse>
          
-          <a class="btn btn-ghost normal-case text-xl hover:dark:text-primary">Omar Faruk</a>
+          <a class="btn btn-ghost normal-case text-xl text-white hover:dark:text-primary">Omar Faruk</a>
         </Pulse>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
-            <li className="hover:dark:text-primary">
+            <li className="hover:dark:text-primary text-white">
               <Link to="/">Home</Link>
             </li>
-            <li className="hover:dark:text-primary">
+            <li className="hover:dark:text-primary text-white">
               <Link to="/aboutMe">About me</Link>
             </li>
-            <li className="hover:dark:text-primary">
+            <li className="hover:dark:text-primary text-white">
               <Link to="/project">My Projects</Link>
             </li>
-            <li className="hover:dark:text-primary">
+            <li className="hover:dark:text-primary text-white">
               <Link to="/blog">Blog</Link>
             </li>
           </ul>

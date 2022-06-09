@@ -8,7 +8,7 @@ AOS.init();
 
 const Experiances = () => {
   return (
-    <div className="mb-[150px]">
+    <div className="mb-[150px] relative">
       <Flip left>
       <h2 className="underline text-3xl text-primary text-center">Experiences</h2>
       </Flip>

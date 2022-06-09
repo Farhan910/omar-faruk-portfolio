@@ -1,4 +1,5 @@
 module.exports = {
+  
   content: ["./src/**/*.{html,js}"],
   daisyui: {
     themes: [
@@ -8,7 +9,7 @@ module.exports = {
           secondary: "#19456B",
           accent: "#37cdbe",
           neutral: "#3d4451",
-          "base-100": "#1B1A17",
+          "base-100": "#1E1A32",
         },
       },
       

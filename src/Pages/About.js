@@ -13,13 +13,13 @@ const About = () => {
   return (
     <div>
       
-      <section className="bg-base-200 dark:text-gray-100 mb-[150px]">
+      <section className=" dark:text-gray-100 mb-[150px]">
         <Flip left>
           <h2 className="underline text-3xl text-primary text-center py-28">
             About Me
           </h2>
         </Flip>
-        <Fade left>
+        
           <div className="container  py-12 mx-auto">
             <div className="grid items-center gap-4 xl:grid-cols-4">
               <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
@@ -31,6 +31,7 @@ const About = () => {
                 </p>
               </div>
               <div className="grid grid-cols-1 gap-5">
+                <Fade left>
                 <div class="card w-96 bg-base-100 shadow-xl">
                   <div class="card-body">
                     <h2 class="card-title">My Past experience</h2>
@@ -46,6 +47,8 @@ const About = () => {
                     </p>
                   </div>
                 </div>
+                </Fade>
+                <Fade right>
                 <div class="card w-96  bg-base-100  shadow-xl">
                   <div class="card-body">
                     <h2 class="card-title">My Goal</h2>
@@ -61,10 +64,11 @@ const About = () => {
                     </p>
                   </div>
                 </div>
+                </Fade>
               </div>
             </div>
           </div>
-        </Fade>
+        
       </section>
     </div>
   );
