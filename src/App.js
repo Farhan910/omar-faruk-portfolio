@@ -4,12 +4,15 @@ import { loadFull } from "tsparticles";
 import "./App.css";
 import About from "./Pages/About";
 import Blog from "./Pages/Blog";
+import Contact from "./Pages/Contact";
 import Footer from "./Pages/Footer";
 import Home from "./Pages/Home";
 import Navbar from "./Pages/Navbar";
+import NotFound from "./Pages/NotFound";
 import Projects from "./Pages/Projects";
 import ProjectsCard from "./Pages/ProjectsCard";
 import Skills from "./Pages/Skills";
+import Some from "./Pages/Some";
 
 function App() {
   const particlesInit = async (main) => {
@@ -139,8 +142,10 @@ function App() {
           <Route path="/projectCard/:id" element={<ProjectsCard />} />
           <Route path="/aboutMe" element={<About />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/project" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/project" element={<Some />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
     </div>

@@ -1,17 +1,13 @@
 import React from "react";
-import image1 from "../Images//screencapture-doctor-home-webapp-web-app-2022-06-01-09_51_17.png";
-import image2 from "../Images//screencapture-al-harmain-webapp-web-app-2022-06-01-09_53_27.png";
-import image3 from "../Images//screencapture-bentley-car-manufactuters-web-app-2022-06-01-10_49_15.png";
-import Footer from "./Footer";
 import { useNavigate } from "react-router-dom";
 
 const Projects = ({ data }) => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="max-w-xs rounded-md shadow-md dark:bg-gray-900 dark:text-gray-100">
+      <div className="max-w-xs rounded-md shadow-md lg:max-w-lg dark:bg-gray-900 dark:text-gray-100">
         <img
-          src={data.image}
+          src={data?.image}
           alt=""
           className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500"
         />
@@ -28,7 +24,7 @@ const Projects = ({ data }) => {
             type="button"
             
             onClick={() => navigate(`/projectCard/${data?._id}`)}
-            className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md dark:bg-violet-400 dark:text-gray-900"
+            className="flex items-center justify-center  p-3 font-semibold tracking-wide rounded-md dark:bg-violet-400 dark:text-gray-900"
           >
             See more
           </button>

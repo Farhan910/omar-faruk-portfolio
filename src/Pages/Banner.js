@@ -3,6 +3,7 @@ import image2 from "../Images//Code-collaboration.svg";
 import Typical from "react-typical";
 import { Flip } from "react-reveal";
 import { saveAs } from "file-saver";
+import {AiOutlineDownload} from 'react-icons/ai';
 
 const Banner = () => {
   const saveFile = () => {
@@ -31,24 +32,23 @@ const Banner = () => {
                 loop={Infinity}
                 wrapper="p"
                 steps={[
-                  "Full stack Developer",
+                  "Front-end Developer",
                   2000,
-                  "Mern Developer",
+                  "MERN stack Developer",
                   2000,
                   "Digital marketer",
                   2000,
-                  "Youtuber",
-                  2000,
+                  
                 ]}
               />
             </h1>
             <div >
               <button
                 type="button"
-                className="px-1 py-2  font-semibold border-2 rounded mt-5 dark:border-gray-100 dark:text-gray-100 relative hover:dark:text-white hover:bg-yellow-600 hover:border-1 transition-all"
+                className="px-1 py-2  font-semibold border-2 rounded mt-5 dark:border-gray-100 dark:text-gray-100 relative hover:dark:text-white flex hover:bg-secondary hover:border-1 transition-all"
                 onClick={saveFile}
               >
-                Download Resume
+                Download Resume <AiOutlineDownload className="text-xl ml-1"/>
               </button>
             </div>
           </div>

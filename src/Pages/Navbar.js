@@ -4,7 +4,7 @@ import Pulse from 'react-reveal/Pulse';
 
 const Navbar = () => {
   return (
-    <div className="relative">
+    <div className="relative navbar-sticky">
       
       <div class="  navbar relative bg-base-200">
         <div class="navbar-start">
@@ -42,6 +42,9 @@ const Navbar = () => {
                 <Link to="/project">My Projects</Link>
               </li>
               <li className="text-white">
+                <Link to="/contact">Contact</Link>
+              </li>
+              <li className="text-white">
                 <Link to="/blog">Blog</Link>
               </li>
             </ul>
@@ -65,9 +68,10 @@ const Navbar = () => {
             <li className="hover:dark:text-primary text-white">
               <Link to="/project">My Projects</Link>
             </li>
-            <li className="hover:dark:text-primary text-white">
-              <Link to="/blog">Blog</Link>
-            </li>
+            <li className="text-white">
+                <Link to="/contact">Contact</Link>
+              </li>
+            
           </ul>
         </div>
       </div>

@@ -3,12 +3,13 @@ import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 import {  Flip} from "react-reveal";
 import Pulse from 'react-reveal/Pulse';
+import CountUp from 'react-countup';
 
 AOS.init();
 
 const Experiances = () => {
   return (
-    <div className="mb-[150px] bg-base-100 relative">
+    <div className="mb-[150px] bg-base-100 relative ">
       <Flip left>
       <h2 className=" text-3xl text-primary text-center">Experiences</h2>
       </Flip>
@@ -30,7 +31,7 @@ const Experiances = () => {
             <Pulse>
 
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-3xl font-semibold leading-none">16</p>
+              <p className="text-3xl font-semibold leading-none"><CountUp end={16} /></p>
               <p className="capitalize">Projects</p>
             </div>
             </Pulse>
@@ -52,7 +53,7 @@ const Experiances = () => {
             <Pulse>
 
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-3xl font-semibold leading-none">54</p>
+              <p className="text-3xl font-semibold leading-none"><CountUp end={54} /></p>
               <p className="capitalize">Github repository's</p>
             </div>
             </Pulse>
@@ -76,7 +77,7 @@ const Experiances = () => {
             <Pulse>
               
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-3xl font-semibold leading-none">80%</p>
+              <p className="text-3xl font-semibold leading-none"><CountUp end={84} />%</p>
               <p className="capitalize">All skills</p>
             </div>
             </Pulse>
@@ -95,7 +96,7 @@ const Experiances = () => {
             <Pulse>
 
             <div className="flex flex-col justify-center align-middle">
-              <p className="text-3xl font-semibold leading-none">70%</p>
+              <p className="text-3xl font-semibold leading-none"><CountUp end={70} />%</p>
               <p className="capitalize">Problem solving skill</p>
             </div>
             </Pulse>
