@@ -4,9 +4,9 @@ import Pulse from 'react-reveal/Pulse';
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="relative">
       
-      <div class=" relative navbar bg-base-200">
+      <div class="  navbar relative bg-base-200">
         <div class="navbar-start">
           <div class="dropdown">
             <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -48,7 +48,7 @@ const Navbar = () => {
           <a class="btn btn-ghost normal-case text-xl text-white hover:dark:text-primary">Omar Faruk</a>
         </Pulse>
         </div>
-        <div class="navbar-center hidden lg:flex">
+        <div class="navbar-center hidden lg:flex ">
           <ul class="menu menu-horizontal p-0">
             <li className="hover:dark:text-primary text-white">
               <Link to="/">Home</Link>

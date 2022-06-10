@@ -8,9 +8,9 @@ AOS.init();
 
 const Experiances = () => {
   return (
-    <div className="mb-[150px] relative">
+    <div className="mb-[150px] bg-base-100 relative">
       <Flip left>
-      <h2 className="underline text-3xl text-primary text-center">Experiences</h2>
+      <h2 className=" text-3xl text-primary text-center">Experiences</h2>
       </Flip>
       <section  data-aos="fade-up" data-aos-anchor-placement="top-bottom"   className="p-6 my-6  dark:text-gray-100">
         <div    className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">

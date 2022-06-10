@@ -11,29 +11,29 @@ const About = () => {
     );
   };
   return (
-    <div>
+    <div className="bg-base-100 relative">
       
-      <section className=" dark:text-gray-100 mb-[150px]">
+      <section className=" dark:text-gray-100 mb-[150px] ">
         <Flip left>
-          <h2 className="underline text-3xl text-primary text-center py-28">
+          <h2 className=" text-3xl text-primary text-center py-28">
             About Me
           </h2>
         </Flip>
         
-          <div className="container  py-12 mx-auto">
+          <div className="container   py-12 mx-auto">
             <div className="grid items-center gap-4 xl:grid-cols-4">
-              <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
+              <div className="max-w-2xl  mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
                 <Flip left>
                   <h2 className="text-5xl font-bold text-primary ">About me</h2>
                 </Flip>
-                <p className="dark:text-gray-400">
+                <p className="dark:text-gray-400 ">
                   Iam shared some story of my life ,how im now in this stage .
                 </p>
               </div>
               <div className="grid grid-cols-1 gap-5">
                 <Fade left>
                 <div class="card w-96 bg-base-100 shadow-xl">
-                  <div class="card-body">
+                  <div class="card-body bg-base-200">
                     <h2 class="card-title">My Past experience</h2>
                     <p>
                       <Typical
@@ -50,7 +50,7 @@ const About = () => {
                 </Fade>
                 <Fade right>
                 <div class="card w-96  bg-base-100  shadow-xl">
-                  <div class="card-body">
+                  <div class="card-body bg-base-200">
                     <h2 class="card-title">My Goal</h2>
                     <p>
                       <Typical

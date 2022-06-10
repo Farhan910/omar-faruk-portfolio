@@ -1,8 +1,6 @@
 import React from "react";
-import image from "../Images//banner7.jpg";
 import image2 from "../Images//Code-collaboration.svg";
 import Typical from "react-typical";
-import banner from "../Images//banner6.webp";
 import { Flip } from "react-reveal";
 import { saveAs } from "file-saver";
 
@@ -13,10 +11,12 @@ const Banner = () => {
       "example.pdf"
     );
   };
+  
   return (
+    
     <section className="mb-[150px] relative">
       <section
-        style={{ backgroundImage: `url(${banner})` }}
+        style={{ backgroundImage: `url($})` }}
         className=" bg-cover   mb-[100px]"
       >
         <div className="container flex flex-col justify-center p-6 mx-auto sm:py-12 lg:py-24 lg:flex-row lg:justify-between">
@@ -45,7 +45,7 @@ const Banner = () => {
             <div >
               <button
                 type="button"
-                className="px-1 py-2  font-semibold border rounded dark:border-gray-100 dark:text-gray-100 relative hover:bg-primary transition-all"
+                className="px-1 py-2  font-semibold border rounded mt-5 dark:border-gray-100 dark:text-gray-100 relative hover:dark:text-white hover:bg-yellow-600 transition-all"
                 onClick={saveFile}
               >
                 Download Resume

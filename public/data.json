@@ -1,0 +1,67 @@
+[
+    {
+       
+        "project": "Doctors House",
+        "feature1":"Responsive and more exclusive design.",
+        "feature2":"Authentication implement, secured routing, fetch from the database server,",
+        "feature3":"User can add her products to the cart.",
+        "subject":"Meet up with a doctor ,and her services ",
+        "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
+        "image":"https://i.ibb.co/Bf8pQVC/screencapture-doctor-home-webapp-web-app-2022-06-01-09-51-17.png",
+        "live":"https://doctor-home-webapp.web.app/"
+
+
+    },
+    {
+        
+        "project": "Phone Store",
+        "feature1":"Responsive and more exclusive design.",
+        "feature2":"API searching ,User can see the models and features of searched phone",
+        "feature3":"Too fast response",
+        "technology":"HTML5,CSS3,API,JSON,Bootstrap.",
+        "subject":"Search for a phone and see the features and models",
+        "image":"https://i.ibb.co/DYcP7mQ/screencapture-phones-company-netlify-app-2022-06-09-22-33-49.png",
+        "live":"https://phones-company.netlify.app/"
+
+
+    },
+    {
+        
+        "project": "Portfolio",
+        "feature1":"Responsive and more exclusive design.",
+        "feature2":"Authentication implement, secured routing, fetch from the database server,",
+        "feature3":"User can add her products to the cart.",
+        "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
+        "subject":"Meet up with a ME,and my skills and projects",
+        "image":"https://i.ibb.co/x1NPfzT/screencapture-localhost-3000-2022-06-10-09-51-35.png",
+        "live":"https://portfolio-faruk-webapp.web.app/"
+
+
+    },
+    {
+       
+        "project": "Al-Haramain",
+        "feature1":"Responsive and more exclusive design.",
+        "feature2":"Authentication implement, secured routing, fetch from the database server,",
+        "feature3":"User can add her products to the cart.",
+        "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
+        "subject":"Meet up with a Perfume store and purchasing products . ",
+        "image":"https://i.ibb.co/Y38wMdq/screencapture-al-harmain-webapp-web-app-2022-06-01-09-53-27.png",
+        "live":"https://al-harmain-webapp.web.app/"
+
+
+    },
+    {
+        
+        "project": "Bentley car",
+        "feature1":"Responsive and more exclusive design.",
+        "feature2":"Authentication implement, secured routing, fetch from the database server,",
+        "feature3":"User can add her products to the cart.",
+        "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
+        "subject":"Meet up with a car ,and her services and car parts",
+        "image":"https://i.ibb.co/qFct24n/screencapture-bentley-car-manufactuters-web-app-2022-06-01-10-49-15.png",
+        "live":"https://bentley-car-manufactuters.web.app/"
+
+
+    }
+]
