@@ -5,6 +5,7 @@ import Contact from "./Contact";
 import Experiances from "./Experiances";
 
 import Projects from "./Projects";
+import Skills from "./Skills";
 import Some from "./Some";
 
 const Home = () => {
@@ -14,10 +15,11 @@ const Home = () => {
       <Banner />
       
       <Experiances />
-      
+      <Skills/>
       <About/>
-      <Contact/>
+     
       <Some/>
+      <Contact/>
       
     </div>
   );

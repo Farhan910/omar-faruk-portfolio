@@ -36,6 +36,9 @@ const Navbar = () => {
                 <Link to="/aboutMe">About Me</Link>
               </li>
               <li className="text-white">
+                <Link to="/skills">Skills</Link>
+              </li>
+              <li className="text-white">
                 <Link to="/project">My Projects</Link>
               </li>
               <li className="text-white">
@@ -56,6 +59,9 @@ const Navbar = () => {
             <li className="hover:dark:text-primary text-white">
               <Link to="/aboutMe">About me</Link>
             </li>
+            <li className="text-white">
+                <Link to="/skills">Skills</Link>
+              </li>
             <li className="hover:dark:text-primary text-white">
               <Link to="/project">My Projects</Link>
             </li>

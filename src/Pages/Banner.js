@@ -45,7 +45,7 @@ const Banner = () => {
             <div >
               <button
                 type="button"
-                className="px-1 py-2  font-semibold border rounded mt-5 dark:border-gray-100 dark:text-gray-100 relative hover:dark:text-white hover:bg-yellow-600 transition-all"
+                className="px-1 py-2  font-semibold border-2 rounded mt-5 dark:border-gray-100 dark:text-gray-100 relative hover:dark:text-white hover:bg-yellow-600 hover:border-1 transition-all"
                 onClick={saveFile}
               >
                 Download Resume

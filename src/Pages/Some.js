@@ -6,7 +6,7 @@ const Some = () => {
   const [datas, setDatas] = useState();
 
   useEffect(() => {
-    fetch("http://localhost:5000/project")
+    fetch("https://whispering-falls-57337.herokuapp.com/project")
       .then((res) => res.json())
       .then((json) => setDatas(json));
   });

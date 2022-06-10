@@ -9,6 +9,7 @@ import Home from "./Pages/Home";
 import Navbar from "./Pages/Navbar";
 import Projects from "./Pages/Projects";
 import ProjectsCard from "./Pages/ProjectsCard";
+import Skills from "./Pages/Skills";
 
 function App() {
   const particlesInit = async (main) => {
@@ -137,6 +138,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/projectCard/:id" element={<ProjectsCard />} />
           <Route path="/aboutMe" element={<About />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/project" element={<Projects />} />
           <Route path="/blog" element={<Blog />} />
         </Routes>
