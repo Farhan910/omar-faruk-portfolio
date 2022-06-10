@@ -118,6 +118,62 @@ const ProjectsCard = () => {
                     />
                   </div>
                 </div>
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary dark:text-gray-900">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <Typical
+                      className="mt-3 text-lg dark:text-gray-400"
+                      steps={[project?.feature4, 2000]}
+                      loop={Infinity}
+                      wrapper="p"
+                    />
+                  </div>
+                </div>
+                <div className="flex">
+                  <div className="flex-shrink-0">
+                    <div className="flex items-center justify-center w-8 h-8 rounded-md bg-primary dark:text-gray-900">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                        className="w-5 h-5"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M5 13l4 4L19 7"
+                        ></path>
+                      </svg>
+                    </div>
+                  </div>
+                  <div className="ml-4">
+                    <Typical
+                      className="mt-3 text-lg dark:text-gray-400"
+                      steps={[project?.feature5, 2000]}
+                      loop={Infinity}
+                      wrapper="p"
+                    />
+                  </div>
+                </div>
 
                 <div className="flex ">
                   <div className="flex-shrink-0">
@@ -152,12 +208,63 @@ const ProjectsCard = () => {
                 </div>
               </div>
             </div>
-            <div aria-hidden="true" className="mt-10  lg:mt-0">
-              <img
-                src={project?.image}
-                alt=""
-                className=" relative mx-auto rounded-lg shadow-lg h-[650px] dark:bg-gray-500"
-              />
+            <div className="relative flex items-center justify-center w-full dark:text-gray-50">
+              <button
+                aria-label="Slide back"
+                type="button"
+                className="absolute left-0 z-30 p-2 ml-10 focus:outline-none focus:dark:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+              >
+                <svg
+                  width="8"
+                  height="14"
+                  fill="none"
+                  viewBox="0 0 8 14"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4"
+                >
+                  <path
+                    d="M7 1L1 7L7 13"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  ></path>
+                </svg>
+              </button>
+              <div class="h-[700px] carousel carousel-vertical rounded-box">
+                <div class="carousel-item h-full">
+                  <img src={project?.image} />
+                </div>
+                <div class="carousel-item h-full">
+                  <img src={project?.image2} />
+                </div>
+                <div class="carousel-item h-full">
+                  <img src={project?.image3}/>
+                </div>
+                
+              </div>
+              <button
+                aria-label="Slide forward"
+                id="next"
+                className="absolute right-0 z-30 p-2 mr-10 focus:outline-none focus:dark:bg-gray-400 focus:ring-2 focus:ring-offset-2 focus:ring-gray-400"
+              >
+                <svg
+                  width="8"
+                  height="14"
+                  viewBox="0 0 8 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-4 h-4"
+                >
+                  <path
+                    d="M1 1L7 7L1 13"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  ></path>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
@@ -165,6 +272,21 @@ const ProjectsCard = () => {
         <button class="btn btn-outline ml-[100px] ">
           <a target="_blank" className="flex text-sm " href={project?.live}>
             Live Demo <BiLinkExternal className="text-xl" />
+          </a>
+        </button>
+        <button class="btn btn-outline ml-[100px] ">
+          <a target="_blank" className="flex text-sm " href={project?.gitcode}>
+            Git client
+            <BiLinkExternal className="text-xl" />
+          </a>
+        </button>
+        <button class="btn btn-outline ml-[100px] ">
+          <a
+            target="_blank"
+            className="flex text-sm "
+            href={project?.girserver}
+          >
+            Git server <BiLinkExternal className="text-xl" />
           </a>
         </button>
       </section>

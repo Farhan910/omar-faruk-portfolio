@@ -5,10 +5,16 @@
         "feature1":"Responsive and more exclusive design.",
         "feature2":"Authentication implement, secured routing, fetch from the database server,",
         "feature3":"User can add her products to the cart.",
+        "feature4":"User can view her cart and checkout.",
+        "feature5":"User can view her order history.",
         "subject":"Meet up with a doctor ,and her services ",
         "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
         "image":"https://i.ibb.co/Bf8pQVC/screencapture-doctor-home-webapp-web-app-2022-06-01-09-51-17.png",
-        "live":"https://doctor-home-webapp.web.app/"
+        "image2":"https://i.ibb.co/2PJ5Mry/screencapture-doctor-home-webapp-web-app-services-2022-06-11-00-35-19.png",
+        "image3":"https://i.ibb.co/k8DRLJF/screencapture-doctor-home-webapp-web-app-login-2022-06-11-00-36-40.png",
+        "live":"https://doctor-home-webapp.web.app/",
+        "gitcode":"https://github.com/Farhan910/doctor-home"
+       
 
 
     },
@@ -18,10 +24,16 @@
         "feature1":"Responsive and more exclusive design.",
         "feature2":"API searching ,User can see the models and features of searched phone",
         "feature3":"Too fast response",
+        "feature4":"User can add her products to the cart.",
+        "feature5":"User can view her cart and checkout.",
         "technology":"HTML5,CSS3,API,JSON,Bootstrap.",
         "subject":"Search for a phone and see the features and models",
         "image":"https://i.ibb.co/DYcP7mQ/screencapture-phones-company-netlify-app-2022-06-09-22-33-49.png",
-        "live":"https://phones-company.netlify.app/"
+        "image2":"https://i.ibb.co/6HLrVr4/screencapture-phones-company-netlify-app-2022-06-11-00-38-15.png",
+        "image3":"https://i.ibb.co/HVgbyPX/screencapture-phones-company-netlify-app-2022-06-11-00-39-42.png",
+        "live":"https://phones-company.netlify.app/",
+        "gitcode":"https://github.com/Farhan910/phone-store"
+        
 
 
     },
@@ -29,12 +41,18 @@
         
         "project": "Portfolio",
         "feature1":"Responsive and more exclusive design.",
-        "feature2":"Authentication implement, secured routing, fetch from the database server,",
+        "feature2":"Authentication implement, secured routing, fetch from the database server",
         "feature3":"User can add her products to the cart.",
+        "feature4":"User can view my skills and wyja ever he want.",
+        "feature5":"User can Download the resume from site.",
         "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
         "subject":"Meet up with a ME,and my skills and projects",
         "image":"https://i.ibb.co/x1NPfzT/screencapture-localhost-3000-2022-06-10-09-51-35.png",
-        "live":"https://portfolio-faruk-webapp.web.app/"
+        "image2":"https://i.ibb.co/KbK1hmX/screencapture-localhost-3000-about-Me-2022-06-11-00-41-25.png",
+        "image3":"https://i.ibb.co/0m5MyBZ/screencapture-localhost-3000-contact-2022-06-11-00-42-03.png",
+        "live":"https://portfolio-faruk-webapp.web.app/",
+        "gitcode":"https://github.com/Farhan910/omar-faruk-portfolio",
+        "girserver":"https://github.com/Farhan910/portfolio-server"
 
 
     },
@@ -44,10 +62,16 @@
         "feature1":"Responsive and more exclusive design.",
         "feature2":"Authentication implement, secured routing, fetch from the database server,",
         "feature3":"User can add her products to the cart.",
+        "feature4":"User can view her cart and checkout.",
+        "feature5":"User can view her order history.",
         "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
         "subject":"Meet up with a Perfume store and purchasing products . ",
         "image":"https://i.ibb.co/Y38wMdq/screencapture-al-harmain-webapp-web-app-2022-06-01-09-53-27.png",
-        "live":"https://al-harmain-webapp.web.app/"
+        "image2":"https://i.ibb.co/XV2PyHK/screencapture-al-harmain-webapp-web-app-products-2022-06-11-00-43-00.png",
+        "image3":"https://i.ibb.co/Rb53781/screencapture-al-harmain-webapp-web-app-login-2022-06-11-00-43-53-1.png",
+        "live":"https://al-harmain-webapp.web.app/",
+        "gitcode":"https://github.com/Farhan910/al-haramain-perfume",
+        "girserver":"https://github.com/Farhan910/al-haramaim-server"
 
 
     },
@@ -57,10 +81,16 @@
         "feature1":"Responsive and more exclusive design.",
         "feature2":"Authentication implement, secured routing, fetch from the database server,",
         "feature3":"User can add her products to the cart.",
+        "feature4":"User can view her cart and checkout.",
+        "feature5":"User can view her order history.",
         "technology":"Reactjs,React Router,Nodejs,Firebase,Heroku,MongoDB,CSS3.",
         "subject":"Meet up with a car ,and her services and car parts",
         "image":"https://i.ibb.co/qFct24n/screencapture-bentley-car-manufactuters-web-app-2022-06-01-10-49-15.png",
-        "live":"https://bentley-car-manufactuters.web.app/"
+        "image2":"https://i.ibb.co/QXTHXh9/screencapture-bentley-car-manufactuters-web-app-dashboard-2022-06-11-00-45-04.png",
+        "image3":"https://i.ibb.co/fNsF77q/screencapture-bentley-car-manufactuters-web-app-dashboard-review-2022-06-11-00-45-59.png",
+        "live":"https://bentley-car-manufactuters.web.app/",
+        "gitcode":"https://github.com/Farhan910/bently-car-service-client",
+        "girserver":"https://github.com/Farhan910/bentley-car-service-sever"
 
 
     }
