@@ -9,7 +9,6 @@ import Footer from "./Pages/Footer";
 import Home from "./Pages/Home";
 import Navbar from "./Pages/Navbar";
 import NotFound from "./Pages/NotFound";
-import Projects from "./Pages/Projects";
 import ProjectsCard from "./Pages/ProjectsCard";
 import Skills from "./Pages/Skills";
 import Some from "./Pages/Some";
